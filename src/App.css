@@ -1,0 +1,233 @@
+@font-face {
+  font-family: marker;
+  src: url(./assets/marker.ttf);
+}
+@font-face {
+  font-family: underground;
+  src: url(./assets/underground.ttf);
+}
+body {
+   background-color: darkgray;
+   letter-spacing: 1.5px;
+}
+
+.aboutme,
+.reviews,
+.booknow,
+.haircuts,
+.home {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+
+h1 {
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  letter-spacing: 1.5px;
+}
+.app {
+  font-family: underground;
+  color: white;
+ 
+  height: 100vh;
+  width: auto;
+
+}
+
+/*NAVBAR START*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.leftside-navbar {
+  margin-left: 10px;
+}
+.logo {
+  color: maroon;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: .5s;
+  text-shadow: 1px 2px black;
+}
+.logo:hover {
+  font-size: 2.1rem;
+}
+.rightside-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlink {
+  font-family: underground;
+  font-size: 1.25rem;
+  border-bottom: dashed white 2px;
+  cursor: pointer;
+  transition: .5s;
+  margin: 5px;
+  text-decoration: none;
+  color: maroon;
+}
+.navlink:hover {
+  font-size: 1.5rem;
+  text-shadow: 3px 3px black;
+}
+
+
+/*NAVBAR END*/
+/*HOME START*/
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/background.jpg");
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.home-hero-img-text {
+  text-shadow: 3px 2px 2px darkgray;
+  letter-spacing: 1.7px;
+  margin-bottom: 100px;
+}
+
+.title {
+  color: maroon;
+  letter-spacing: 1.7px;
+  font-size: 4rem;
+  text-shadow: 3px 2px 2px darkgray;
+}
+
+.home-hero-img-text p:nth-child(1) {
+  font-size: 5rem;
+  text-shadow: 3px 2px 2px darkgray;
+}
+.home-hero-img-text p:nth-child(2) {
+  font-size: 2.5rem;
+  text-shadow: 3px 2px 2px darkgray;
+}
+.home-hero-img-text p:nth-child(3){
+  font-size: 1.5rem;
+}
+
+.home-hero-button {
+  border: solid 2px whitesmoke;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: darkgray;
+  font-family: underground;
+  transition: .5s;
+}
+.home-hero-button:hover {
+  font-size: 1rem;
+  height: 35px;
+  width: 120px;
+}
+
+
+/*HOME END*/
+
+
+/*REVIEWS START*/
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  line-height: 1.3rem;
+
+}
+.gallery {
+  display: flex;
+  align-items: center;
+}
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.reviews-container div {
+
+}
+
+/*REVIEWS END*/
+
+/*ABOUT ME START*/
+
+.aboutme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.aboutme-title {
+ 
+}
+.aboutme .aboutme-img, .aboutme-text{
+  margin: 50px;
+}
+.aboutme-img {
+
+}
+.aboutme-text {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 3rem;
+  font-family: fantasy;
+}
+
+/*ABOUT ME END*/
+
+/*FOOTER NAVBAR START*/
+.footer-navbar {
+  display: flex;
+}
+
+
+/*FOOTER NAVBAR START*/
+
+.vl {
+  border-left: 1px solid black;
+  height: 125px;
+}
+
+span {
+  color: maroon;
+  font-size: 1.4rem;
+}
+
+.footer-navbar {
+  height: 150PX;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-navbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-navbar-right div{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.social-icons {
+  margin: 50px;
+  text-align: center;
+}
