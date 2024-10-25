@@ -79,15 +79,18 @@ h2 {
 /*HOME START*/
 
 .home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("./assets/background.jpg");
   height: 75vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  border: solid white 1px;
 
 }
 .home-hero-img-text {
@@ -117,8 +120,9 @@ h2 {
 
 .home-hero-button {
   border: solid 2px whitesmoke;
-  height: 25px;
-  width: 100px;
+  font-size: 2rem;
+  height: 50px;
+  width: 200px;
   border-radius: 5px;
   cursor: pointer;
   background-color: darkgray;
@@ -126,9 +130,9 @@ h2 {
   transition: .5s;
 }
 .home-hero-button:hover {
-  font-size: 1rem;
-  height: 35px;
-  width: 120px;
+  font-size: 2.5rem;
+  height: 85px;
+  width: 220px;
 }
 
 
@@ -148,11 +152,22 @@ h2 {
   flex-direction: column;
   width: 400px;
   line-height: 1.3rem;
+  font-family: fantasy;
+  background-color: rgba(250, 250, 250, 1.0);
+  border: solid maroon 1px;
+  border-radius: 10px;
+  margin: 10px;
+  color: maroon;
 
 }
 .gallery {
   display: flex;
   align-items: center;
+}
+
+.gallery img {
+  border: solid white 1px;
+  border-radius: 10px;
 }
 .reviews-container {
   display: flex;
@@ -160,7 +175,7 @@ h2 {
   justify-content: space-around;
 }
 .reviews-container div {
-
+  
 }
 
 /*REVIEWS END*/
@@ -217,6 +232,13 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.footer-navbar-left{
+
+}
+.footer-navbar-right ul {
+  display: flex;
+  font-size: 1.5rem;
 }
 .footer-navbar-right {
   display: flex;

@@ -39,11 +39,11 @@ function App() {
         <div className="footer-navbar-right">
           <div>
             <ul>
-              <li>taper fades</li>
-              <li>high top fades</li>
-              <li>low top fades</li>
-              <li>southside fades</li>
-              <li>line-ups</li>
+              <li> taper fades</li>
+              <li> -high top fades-</li>
+              <li>low top fades-</li>
+              <li>southside fades-</li>
+              <li>line-ups-</li>
               <li><Link className="navlink" to="/haircuts"> and more...</Link></li>
             </ul>
           </div>
@@ -59,7 +59,7 @@ function App() {
               <AiFillInstagram />
             </div>
           </div>
-          <div><Link className="navlink"to="/contact" style={{borderRadius: "10px", border: "1px solid black", padding: "5px"}}>contact</Link></div>
+          <div><Link className="navlink"to="/cal" style={{borderRadius: "10px", border: "1px solid black", padding: "5px"}}>booknow!</Link></div>
         </div>
       </div>
     </div>

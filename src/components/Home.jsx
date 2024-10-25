@@ -16,7 +16,7 @@ const Home = () => {
         text="Book Now!"
         textColor="#ffffff"
         color="#00a2ff" />*/}
-					<Link to="/cal"><button className="home-hero-button">book now <span style={{fontWeight: "bolder", fontSize: "1rem"}}>></span></button></Link>
+					<Link to="/cal"><button className="home-hero-button">book now! <span style={{fontWeight: "bolder", fontSize: "1rem"}}></span></button></Link>
 				
 				</div>
 			</div>

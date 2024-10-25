@@ -31,9 +31,17 @@ const Reviews = () => {
 	return (
 		<div className="reviews">
 			<p className="title">reviews</p>
-			<div className="review"> 
-				<p>"kyrie was incredibly profesional and personal all at the same time, I came in looking like dolemite and left looking like eddie murphy!"</p>
-				<p>~ <span>5</span> stars donald harrington</p>
+			<div className="reviews-container">
+			{
+				staticList.map((item)=>{
+
+					return (
+					<div className="review"> 
+						<p>{item.reviewerText}</p>
+						<p>~ <span>{item.reviewerRating}</span> stars {item.reviewerName}</p>
+					</div>);
+				})
+			}
 			</div>
 			<div className="gallery">
 				<div style={{margin: "20px"}}> scroll down for reviews</div>
