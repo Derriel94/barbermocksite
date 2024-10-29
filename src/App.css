@@ -253,3 +253,24 @@ span {
   margin: 50px;
   text-align: center;
 }
+
+/*HAIRCUTS START*/
+.haircut-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: maroon;
+}
+
+.haircut-type {
+  width: 300px;
+  height: 300px;
+  border: maroon 2px solid;
+  margin: 10px;
+}
+
+.haircut-type-img {
+  height: 300px;
+  width: 300px;
+}
+/*HAIRCUTS END*/
